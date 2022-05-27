@@ -1,0 +1,24 @@
+.trash {
+  background: url("../trash-can-solid.svg");
+  width: 15px;
+  height: 35px;
+  background-repeat: no-repeat;
+  border: none;
+}
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+  font-family: "Dosis";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+.postTitle {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 0px;
+  margin: 15px 0px;
+}
+.postInfo {
+  max-width: 80%;
+}
